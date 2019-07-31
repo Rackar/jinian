@@ -3,6 +3,11 @@
 		<basics v-if="PageCur=='basics'"></basics>
 		<components v-if="PageCur=='component'"></components>
 		<plugin v-if="PageCur=='plugin'"></plugin>
+		<view>
+			<navigator class='nav' url="/pages/basics/home">基础</navigator>
+			<navigator class='nav' url="/pages/component/home">组件</navigator>
+			<navigator class='nav' url="/pages/plugin/home">插件</navigator>
+		</view>
 		<view class="cu-bar tabbar bg-white shadow foot">
 			<view class="action" @click="NavChange" data-cur="basics">
 				<view class='cuIcon-cu-image'>
@@ -29,7 +34,7 @@
 <script>
 	export default {
 		data() {
-		return {
+			return {
 				PageCur: 'basics'
 			}
 		},
@@ -42,5 +47,7 @@
 </script>
 
 <style>
-
+.nav{
+	line-height: 80upx;
+}
 </style>

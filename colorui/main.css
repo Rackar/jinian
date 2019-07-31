@@ -910,6 +910,12 @@ button.cuIcon.lg {
 	font-size: 2.5em;
 }
 
+.cu-avatar.xxl {
+	width: 300upx;
+	height: 300upx;
+	font-size: 2.5em;
+}
+
 .cu-avatar .avatar-text {
 	font-size: 0.4em;
 }

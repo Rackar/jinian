@@ -54,6 +54,14 @@
 			"style": {}
 		},
 		{
+			"path": "pages/basics/home",
+			"style": {}
+		},
+		{
+			"path": "pages/component/home",
+			"style": {}
+		},
+		{
 			"path": "pages/component/bar",
 			"style": {}
 		},
@@ -93,6 +101,9 @@
 			"path": "pages/component/steps",
 			"style": {}
 		}, {
+			"path": "pages/plugin/home",
+			"style": {}
+		}, {
 			"path": "pages/plugin/indexes",
 			"style": {}
 		}, {
@@ -108,6 +119,10 @@
 	    
         ,{
             "path" : "pages/jinian/list/list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/jinian/single/single",
             "style" : {}
         }
     ],
