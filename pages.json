@@ -125,6 +125,36 @@
             "path" : "pages/jinian/single/single",
             "style" : {}
         }
+        ,{
+            "path" : "pages/jinian/articles/articles",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/jinian/photos/photos",
+            "style" : {}
+        },{
+            "path" : "pages/jinian/detail/detail",
+            "style": {
+            	"navigationBarTitleText": "详情",
+            	"navigationBarBackgroundColor": "#000000",
+            	"backgroundColor": "#000000",
+            	"app-plus": {
+            		"bounce": "none",
+            		"titleNView": {
+            			"buttons": [{
+            				"type": "share"
+            			}]
+            		}
+            	},
+            	"h5": {
+            		"titleNView": {
+            			"buttons": [{
+            				"type": "favorite"
+            			}]
+            		}
+            	}
+            }
+        }
     ],
 	"globalStyle": {
 		"mp-alipay": {

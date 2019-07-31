@@ -26,7 +26,7 @@
 					// #endif
 				}
 			})
-
+			Vue.prototype.$serverUrl = 'https://unidemo.dcloud.net.cn';
 			Vue.prototype.ColorList = [{
 					title: '嫣红',
 					name: 'red',
@@ -116,9 +116,10 @@
 </script>
 
 <style>
+	@import './common/common.css';
 	@import "colorui/main.css";
 	@import "colorui/icon.css";
-
+	
 	.nav-list {
 		display: flex;
 		flex-wrap: wrap;

@@ -7,6 +7,7 @@
 			<navigator class='nav' url="/pages/basics/home">基础</navigator>
 			<navigator class='nav' url="/pages/component/home">组件</navigator>
 			<navigator class='nav' url="/pages/plugin/home">插件</navigator>
+			<navigator class='nav' url="/pages/jinian/detail/detail">图库</navigator>
 		</view>
 		<view class="cu-bar tabbar bg-white shadow foot">
 			<view class="action" @click="NavChange" data-cur="basics">
